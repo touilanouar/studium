@@ -1,0 +1,9 @@
+2-c
+Es werden zu verschiedenen ausgaben kommen weil die variabeln nicht 
+initialisiert worden und so werden sie bei jedem aufruf zufällig gesetzt
+2-d
+statt gcc -c , gcc -S benutzen wird ein assembler code kreiert 
+3-
+#include"func.c"  linken
+gcc -c bsp.c func.c     binden
+gcc -o bsp bsp.o -lm   mathe bibliothek dazu binden
