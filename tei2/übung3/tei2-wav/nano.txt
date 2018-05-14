@@ -1,0 +1,1 @@
+ls -1 /usr/share/nano/*.nanorc | sed 's/^\//include \//' >> ~/.nanorc
